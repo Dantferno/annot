@@ -22,7 +22,8 @@ L'orf est enregistré dans un fichier au format fasta portant son nom Ex: ./HMP1
 
 Cet ORF est blastp contre swissprot avec une evalue de 1e-10 et les résultats sont enregistrés Ex :./HMP1_7827060/ORF3/blastsw
 
-Les résultats du blastp pour l'ORF sélectionner sont plot.
+Les résultats du blastp pour l'ORF sélectionner sont mis sous forme de graphique. Ex :./HMP1_7827070/ORF3/blastNRplot.pdf
+
 
 Le tableau est enregistré /HMP1_7827060/ORF3/tableau.csv
 
