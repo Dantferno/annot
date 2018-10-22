@@ -28,7 +28,7 @@ Les résultats du blastp pour l'ORF sélectionner sont mis sous forme de graphiq
 Le tableau est enregistré /HMP1_7827060/ORF3/tableau.csv
 
 ## Ouput:
-
+![Screenshot](/HMP1_7827070/ORF3/blastNRplot.pdf)
 
 ### Requis : 
 
