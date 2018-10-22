@@ -1,6 +1,5 @@
 # annot
-
-Depuis une séquence fasta, output un tableau affichant les coordonnées des ORFs trouvés par getorf(ebi), leurs tailles en nucléotide, en acide aminé, le nombre de résultat blastp de leurs traductions à 1e-10, le pourcentage d'identité, la longueur de l'alignement et la evalue du meilleur hit, et le nombre de resultat blastp contre swissprot pour l'ORF choisi.
+Automatise les premières étapes de Annotathon  + 
 output un graph des résutats de blastp pour aider à choisir une valeur seuil 
 
 #### Déroulement : 
