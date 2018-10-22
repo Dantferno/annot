@@ -3,8 +3,8 @@
 Depuis une séquence fasta, output un tableau affichant les coordonnées des ORFs trouvés par getorf(ebi), leurs tailles en nucléotide, en acide aminé, le nombre de résultat blastp de leurs traductions à 1e-10, le pourcentage d'identité, la longueur de l'alignement et la evalue du meilleur hit, et le nombre de resultat blastp contre swissprot pour l'ORF choisi.
 output un graph des résutats de blastp pour aider à choisir une valeur seuil 
 
-Enregistrer une sequence issue de Annotathon dans seq.fasta 
-lancer bio.py 
+Enregistrer une sequence issue de Annotathon dans seq.fasta \n
+lancer bio.py \n
 Un dossier nommé d'aprés l'id de la séquence est crée. Ex: ./HMP1_7827060
 Les résultats bruts de getorf et du blastp de tout les orfs sont enregistrés Ex : ./HMP1_7827060/ORF_HMP1_7827060.fasta et ./HMP1_7827060/blastp_HMP1_7827060
 Un tableau récapitulant les informations est imprimé to stdout. 
