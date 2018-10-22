@@ -3,7 +3,7 @@
 Depuis une séquence fasta, output un tableau affichant les coordonnées des ORFs trouvés par getorf(ebi), leurs tailles en nucléotide, en acide aminé, le nombre de résultat blastp de leurs traductions à 1e-10, le pourcentage d'identité, la longueur de l'alignement et la evalue du meilleur hit, et le nombre de resultat blastp contre swissprot pour l'ORF choisi.
 output un graph des résutats de blastp pour aider à choisir une valeur seuil 
 
-####Déroulement : 
+#### Déroulement : 
 
 Enregistrer une sequence issue de Annotathon dans seq.fasta 
 
@@ -28,7 +28,7 @@ Les résultats du blastp pour l'ORF sélectionner sont plot.
 Le tableau est enregistré /HMP1_7827060/ORF3/tableau.csv
 
 
-####Requis : 
+#### Requis : 
 
 GNU/Linux
 
@@ -37,7 +37,7 @@ suite ebi
 suite blast+
 
 
-###Python : 
+### Python : 
 
 pandas
 
