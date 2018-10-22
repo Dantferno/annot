@@ -3,7 +3,7 @@ Automatise les premières étapes de Annotathon, output les résultats bruts dem
 et un graph des résutats de blastp pour un ORF choisi afin d'aider à choisir une valeur seuil ![Screenshot](/HMP1_7827070/ORF3/blastNRplot.pdf)
 
 #### Protocole 
-getorf -minsize 180 entre deux codons stop > blastp evalue min 1e-10 contre NR et SW 
+getorf -minsize 180 entre deux codons stop | blastp evalue min 1e-10 contre NR et SW 
 
 #### Déroulement : 
 
