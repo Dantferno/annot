@@ -1,6 +1,6 @@
 # annot
-Automatise les premières étapes de Annotathon  + 
-output un graph des résutats de blastp pour aider à choisir une valeur seuil 
+Automatise les premières étapes de Annotathon et
+output un graph des résutats de blastp pour aider à choisir une valeur seuil ![Screenshot](/HMP1_7827070/ORF3/blastNRplot.pdf)
 
 #### Déroulement : 
 
@@ -27,8 +27,7 @@ Les résultats du blastp pour l'ORF sélectionner sont mis sous forme de graphiq
 
 Le tableau est enregistré /HMP1_7827060/ORF3/tableau.csv
 
-## Ouput:
-![Screenshot](/HMP1_7827070/ORF3/blastNRplot.pdf)
+
 
 ### Requis : 
 
