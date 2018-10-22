@@ -27,8 +27,10 @@ Les résultats du blastp pour l'ORF sélectionner sont plot.
 
 Le tableau est enregistré /HMP1_7827060/ORF3/tableau.csv
 
+## Ouput:
 
-#### Requis : 
+
+### Requis : 
 
 GNU/Linux
 
