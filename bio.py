@@ -4,7 +4,7 @@ import time
 import pandas as pd
 import matplotlib.pyplot as plt
 from Bio import SeqIO
-from latex import build_pdf
+#from latex import build_pdf
 start_time = time.time()
  
 seqname = subprocess.Popen('grep -oP \'(?<=>)\w+\' seq.fasta', shell=True, stdout=subprocess.PIPE)
@@ -79,7 +79,6 @@ def parse_blast(seqname, orfchoice):
 	subprocess.call('grep ^{0}_{1} ./{0}/blastNR_{0} > ./{0}/ORF{1}/blastNR_{0}_{1}'.format(seqname, orfchoice), shell=True) 
 	
 def plotblast(seqname, orfchoice, bp):
-##if seqname.contnain('_') 
 	blastresultNR = pd.read_csv('./{0}/ORF{1}/blastNR_{0}_{1}'.format(seqname, orfchoice), sep='\t', names=['qseqid', 'qass', 'evalue', 'bitscore', 'length', 'pident'])
 	evalue = blastresultNR['evalue']
 	bitscore = blastresultNR['bitscore']
