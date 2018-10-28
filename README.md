@@ -1,7 +1,8 @@
 # annot
-Automatise les premières étapes de Annotathon, output les résultats bruts demandé sous forme de fichier txt, un tableau récapitulant toutes les informations (nombres d'orf, coordonnées, nombre de nucleotide, d'acide aminé, nombre de résultat blastp contre NR, et pour l'ORF choisi le meilleur alignement -pourcentage d'identité, longueur alignement, evalue + nombre de résultat blastp contre SW)
+Automatise les premières étapes de Annotathon, output les résultats bruts demandé sous forme de fichier txt, un tableau récapitulant toutes les informations (Ex : ![tableau](/HMP1_7827070/ORF3/tableau.csv)
+ )(nombres d'orf, coordonnées, nombre de nucleotide, d'acide aminé, nombre de résultat blastp contre NR, et pour l'ORF choisi le meilleur alignement -pourcentage d'identité, longueur alignement, evalue + nombre de résultat blastp contre SW)
 et un graph (Ex : ![Plot](/HMP1_7827070/ORF3/blastNRplot.pdf)
- ) des résutats de blastp pour un ORF choisi afin d'aider à choisir une valeur seuil ![Plot](/HMP1_7827070/ORF3/blastNRplot.pdf)
+ ) des résutats de blastp pour un ORF choisi afin d'aider à choisir une valeur seuil 
 
 #### Protocole 
 getorf -minsize 180 entre deux codons stop | blastp evalue min 1e-10 5000 resultats max contre NR et SW 
