@@ -1,4 +1,4 @@
-ORF	Coordonne	Nbr AA	Nbr nucl	Nbr blastp evalue=1e-10	best evalue	bitscore	length	pident	Nbre hit blastp SW
+ORF 	Coordonne	 Nbr  AA	 Nbr  nucl	 Nbr  blastp  evalue=1e-10	 best evalue	 bitscore	 length	 pident	 Nbre hit blastp SW
 1	166 - 357	64	192	0					
 2	421 - 627	69	207	0					
 3	2 - 1102	367	1101	674	0	736	367	95.913	0
