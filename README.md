@@ -5,7 +5,7 @@ et un graph (Ex : ![Plot](/HMP1_7827070/ORF3/blastNRplot.pdf)
  ) des résutats de blastp pour un ORF choisi afin d'aider à choisir une valeur seuil 
 
 #### Protocole 
-getorf -minsize 180 entre deux codons stop | blastp evalue min 1e-10, 5000 resultats max, contre NR et SW 
+getorf -minsize 180 entre deux codons stop | blastp evalue min 1e-10, 5000 resultats max, contre NR et swissprot 
 
 #### Déroulement : 
 
