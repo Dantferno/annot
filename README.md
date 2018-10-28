@@ -34,14 +34,16 @@ Le tableau est enregistré /HMP1_7827060/ORF3/tableau.csv
 
 ### Requis : 
 
-GNU/Linux
+Unix filesystem
 
-suite ebi 
+GNU grep (perl regex)   
 
-suite blast+
+ebi getorf 
+
+blast+
 
 
-### Python : 
+#### Python : 
 
 pandas
 
