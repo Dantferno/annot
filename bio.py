@@ -138,9 +138,7 @@ def tableau(seqname, bp, orfchoice):
 	
 def tableauLATEX(seqname, bp, orfchoice):
 	with open('./{0}/ORF{1}/mytable.tex'.format(seqname, orfchoice), 'w+') as f:
-		f.write('\\documentclass{slides} \n')
-		f.write('\\usepackage{booktabs} \n')
-		f.write('\\begin{document} \n')
+		f.write('\\documentclass{slides} \nusepackage{booktabs} \nbegin{document} \n')
 		f.write(bp.to_latex())
 		f.write('\n\\end{document}')
 		build_pdf(f, texinputs=[])
